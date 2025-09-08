@@ -191,14 +191,16 @@ To understand how crop yields change annually, I calculated **year-over-year cha
 
 ```{r year2year_change, echo=TRUE, message=FALSE, warning=FALSE}
 combined <- combined %>%
-  arrange(commodity, year) %>%   # Sort by crop and year
+  drop_na(total_value, rainfall, temperature) %>%
+  arrange(commodity, year) %>%
   group_by(commodity) %>%
   mutate(
     yield_change = total_value - lag(total_value),
     rainfall_change = rainfall - lag(rainfall),
     temp_change = temperature - lag(temperature)
   ) %>%
-  ungroup()
+  ungroup() %>%
+  filter(!is.na(yield_change))
 
 ggplot(combined, aes(x = year, y = yield_change, color = commodity)) +
   geom_line(size = 1.2) +
@@ -246,5 +248,6 @@ More importantly, this case study demonstrates how I approach complex problems a
 * **Building reproducible workflows across SQL and RStudio**
 * **Testing hypotheses with visualizations to interpret relationships between variables**
 * **Communicating insights in a way that connects raw data to real world context**
+
 
 While the hypothesis wasn’t strongly confirmed, this project highlights my ability to manage the full data pipeline, from raw collection to final insights. It shows how I can bring structure, clarity, and analytical thought process to complex datasets.
