@@ -1,0 +1,25 @@
+# Title: February 2018 - January 2019 New Jersey County Precipitation
+# Units: Inches
+# Note: Period of Record: 130 Years
+ID,Name,State,Value,Rank,Anomaly (1901-2000 base period),1901-2000 Mean
+NJ-001,Atlantic County,New Jersey,66.37,130,22.62,43.75
+NJ-003,Bergen County,New Jersey,65.24,129,18.73,46.51
+NJ-005,Burlington County,New Jersey,67.05,130,22.92,44.13
+NJ-007,Camden County,New Jersey,66.2,130,22.45,43.75
+NJ-009,Cape May County,New Jersey,62.05,130,19.26,42.79
+NJ-011,Cumberland County,New Jersey,62.1,130,19.27,42.83
+NJ-013,Essex County,New Jersey,66.05,129,18.62,47.43
+NJ-015,Gloucester County,New Jersey,65.41,130,21.89,43.52
+NJ-017,Hudson County,New Jersey,64.15,129,18.87,45.28
+NJ-019,Hunterdon County,New Jersey,68.53,129,22.55,45.98
+NJ-021,Mercer County,New Jersey,66.55,130,21.9,44.65
+NJ-023,Middlesex County,New Jersey,65.16,130,19.84,45.32
+NJ-025,Monmouth County,New Jersey,69.82,130,24.86,44.96
+NJ-027,Morris County,New Jersey,69.68,129,21.12,48.56
+NJ-029,Ocean County,New Jersey,68.04,130,23.62,44.42
+NJ-031,Passaic County,New Jersey,63.97,127,16.43,47.54
+NJ-033,Salem County,New Jersey,63.62,130,20.99,42.63
+NJ-035,Somerset County,New Jersey,64.99,129,18.49,46.5
+NJ-037,Sussex County,New Jersey,66.61,129,21.45,45.16
+NJ-039,Union County,New Jersey,64.08,129,17.54,46.54
+NJ-041,Warren County,New Jersey,71.21,129,25.13,46.08

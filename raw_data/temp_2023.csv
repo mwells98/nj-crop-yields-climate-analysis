@@ -1,0 +1,25 @@
+# Title: February 2022 - January 2023 New Jersey County Average Temperature
+# Units: Degrees Fahrenheit
+# Note: Period of Record: 130 Years
+ID,Name,State,Value,Rank,Anomaly (1901-2000 base period),1901-2000 Mean
+NJ-001,Atlantic County,New Jersey,56.6,128,3.9,52.7
+NJ-003,Bergen County,New Jersey,55,126,4,51
+NJ-005,Burlington County,New Jersey,56.8,128,3.9,52.9
+NJ-007,Camden County,New Jersey,57.3,130,4,53.3
+NJ-009,Cape May County,New Jersey,56.8,126,3.6,53.1
+NJ-011,Cumberland County,New Jersey,56.8,127,3.8,53.1
+NJ-013,Essex County,New Jersey,55.5,127,4.2,51.3
+NJ-015,Gloucester County,New Jersey,57.4,128,3.9,53.5
+NJ-017,Hudson County,New Jersey,56.8,127,4.1,52.7
+NJ-019,Hunterdon County,New Jersey,53.7,127,4.1,49.6
+NJ-021,Mercer County,New Jersey,55.6,128,3.8,51.8
+NJ-023,Middlesex County,New Jersey,56.3,130,4.4,51.9
+NJ-025,Monmouth County,New Jersey,56.4,130,4.4,52
+NJ-027,Morris County,New Jersey,52.8,127,3.9,48.9
+NJ-029,Ocean County,New Jersey,56.3,128,4,52.3
+NJ-031,Passaic County,New Jersey,53,126,3.9,49.1
+NJ-033,Salem County,New Jersey,57.2,127,3.6,53.6
+NJ-035,Somerset County,New Jersey,55,128,4.3,50.7
+NJ-037,Sussex County,New Jersey,51.2,128,3.6,47.6
+NJ-039,Union County,New Jersey,56.2,127,4.4,51.8
+NJ-041,Warren County,New Jersey,52.1,125,3.9,48.2
